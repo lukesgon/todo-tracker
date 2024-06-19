@@ -1,0 +1,124 @@
+.project-editor {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-editor > article {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    height: fit-content;
+    width: fit-content;
+
+    background-color: var(--color-dark);
+    padding: 0.5rem;
+
+    border-radius: 0.5rem;
+}
+
+.project-editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-editor-header-section {
+    display: flex;
+    gap: 5px;
+}
+
+.project-editor-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-editor-form > section {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.project-editor-form > section > fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    gap: 5px;
+}
+
+.project-editor-form > section > fieldset > section {
+    display: flex;
+    gap: 5px;
+}
+
+.project-editor-input {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.project-editor-input-active {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.project-editor-input > input, .project-editor-input > textarea {
+    background-color: var(--color-dark-grey);
+    color: var(--color-dark);
+}
+
+#project-editor-id {
+    width: 7.5rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+
+    border: none;
+}
+
+#project-editor-name {
+    width: 15rem;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#project-editor-description {
+    width: 22.813rem;
+    height: 6.71rem;
+    resize: none;
+    padding: 0.2rem;
+
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.project-editor-time > input {
+    text-align: end;
+    width: 3.3rem;
+
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+
+.project-editor-input-active > input, .project-editor-input-active > textarea {
+    background-color: var(--color-grey-soft);
+    color: var(--color-dark);
+}
+

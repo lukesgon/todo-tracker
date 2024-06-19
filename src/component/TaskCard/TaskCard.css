@@ -1,0 +1,42 @@
+.task-card {
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-dark);
+    color: var(--color-grey-soft);
+
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.task-name {
+    /* width: 65%; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0.1rem ;
+
+    font-size: 1rem;
+    /* color: var(--color-blue); */
+
+    padding-top: 0.1rem;
+}
+
+.task-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-card-complete {
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-grey);
+    color: var(--color-dark-grey);
+
+    text-decoration: line-through;
+
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}

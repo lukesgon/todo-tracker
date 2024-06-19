@@ -1,0 +1,38 @@
+.project-card {
+    background-color: var(--color-dark-grey);
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-buttons {
+    display: flex;
+    padding-left: 0.3rem;
+    gap: 3px;
+}
+
+.project-name {
+    color: var(--color-dark);
+    text-overflow: ellipsis;
+}
+
+.project-task-display {
+    /* margin-top: 0.3rem; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+}
+
+.project-complete-task-display {
+    margin-top: 1rem;
+}
+
+.project-complete-task-display > hr {
+    border: 1px solid var(--color-grey);
+}

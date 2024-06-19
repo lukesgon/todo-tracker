@@ -1,0 +1,39 @@
+.confirm-delete {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.confirm-delete > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: var(--color-dark);
+    padding: 0.5rem;
+    display: flex;
+    width: 40%;
+    height: 40%;
+
+    border-radius: 0.5rem;
+}
+
+.confirm-delete > article > h3 {
+    font-size: 2rem;
+}
+
+.confirm-delete > article > section { 
+    display: flex;
+    gap: 10px;
+}

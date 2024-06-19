@@ -1,0 +1,78 @@
+.calculator {
+    background-color: var(--color-dark-soft);
+    color: var(--color-grey-soft);
+
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.calculator h3 {
+    font-size: 1rem;
+}
+
+.calculator p {
+    font-size: 1rem;
+}
+
+.calculator form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-time-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.calculator-time-input {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    color: var(--color-grey-light);
+    gap: 2px;
+}
+
+.calculator-time-input > input {
+    width: 1.5rem;
+    text-align: center;
+    margin-left: 2px;
+
+    color: var(--color-dark);
+    background-color: var(--color-grey-soft);
+    
+    border: none;
+    border-radius: 0.2rem;
+    
+}
+
+.calculator-value > input {
+    text-align: end;
+    width: 3rem;
+}
+
+.calculator-select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.calculator-select-project {
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 2px;
+
+    color: var(--color-dark);
+    background-color: var(--color-grey-soft);
+    
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.calculator-value {
+    margin-left: 1rem;
+}

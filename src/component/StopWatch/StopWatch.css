@@ -1,0 +1,35 @@
+.stopwatch {
+    padding-left: 3px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+
+    font-size: 1rem;
+    transition: 200ms;
+}
+
+.stopwatch-counter-play {
+    color: var(--color-grey-light);
+    transition: 200ms;
+}
+
+.stopwatch-counter-started {
+    color: var(--color-grey);
+    transition: 200ms;
+}
+
+.stopwatch-counter-pause {
+    color: var(--color-dark-soft);
+    transition: 200ms;
+}
+
+.stopwatch-complete {
+    padding-left: 3px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}

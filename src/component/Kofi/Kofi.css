@@ -1,0 +1,27 @@
+.kofi-portal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.kofi-portal > section  {
+    transform: scale(0.9);
+}
+
+.kofi-portal > section > section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0.2rem;
+}
+
+.kofi-portal iframe {
+    border-radius: 1rem;
+}

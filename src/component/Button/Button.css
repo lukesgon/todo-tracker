@@ -1,0 +1,142 @@
+.std-button {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.32rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+    width: fit-content;
+    height: fit-content;
+
+    background-color: var(--color-dark-soft);
+    fill: var(--color-grey-soft);
+    stroke:  var(--color-grey-soft);
+    color: var(--color-grey-soft);
+
+    transition: 200ms ease-in-out;
+
+    font-weight: bold;
+}
+
+.donate-button {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.32rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+    width: fit-content;
+    height: fit-content;
+
+    background-color: var(--color-dark);
+    fill: var(--color-grey-soft);
+    stroke:  var(--color-grey-soft);
+    color: var(--color-grey-soft);
+
+    transition: 200ms ease-in-out;
+
+    font-weight: bold;
+
+    margin-top: 0.5rem;
+}
+
+.info-button {
+    min-width: 5rem;
+}
+
+.std-button-uncheck {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.312rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+    width: fit-content;
+    height: fit-content;
+
+    background-color: var(--color-dark-soft);
+    fill: var(--color-grey-soft);
+    stroke:  var(--color-grey-soft);
+    color: var(--color-grey-soft);
+
+    transition: 200ms ease-in-out;
+
+    font-weight: bold;
+}
+
+.std-button-play {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.32rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-grey-light);
+    fill: var(--color-dark);
+
+    transition: 200ms ease-in-out;
+}
+
+.std-button-complete {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.32rem 0.3rem 0.3rem 0.31rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-dark-grey);
+    fill: var(--color-grey);
+
+    transition: 200ms ease-in-out;
+}
+
+.std-button-disabled {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.32rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-dark-grey);
+    fill: var(--color-dark);
+    transition: 200ms ease-in-out;
+}
+
+.std-button-active {
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.3rem 0.3rem 0.32rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-grey-light);
+    fill: var(--color-dark);
+
+    transition: 200ms ease-in-out;
+}
+
+.std-button:hover, .std-button-play:hover, .std-button-complete:hover, .std-button-active:hover, .std-button-uncheck:hover, .donate-button:hover {
+    cursor: pointer;
+    
+    background-color: var(--color-grey-light);
+    fill: var(--color-dark);
+    stroke:  var(--color-dark);
+    color: var(--color-dark);
+}

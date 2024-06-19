@@ -1,0 +1,76 @@
+.create-task {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.create-task > article {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    justify-content: center;
+
+    height: fit-content;
+    width: fit-content;
+
+    background-color: var(--color-dark);
+    padding: 0.5rem;
+
+    border-radius: 0.5rem;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.create-task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-task form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.create-task form > fieldset {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.create-task input, .create-task textarea {
+    display: flex;
+    flex-direction: column;
+
+    width: 20rem;
+
+    width: 15rem;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+
+    background-color: var(--color-grey-soft);
+    color: var(--color-dark);
+}
+
+.create-task textarea {
+    height: 10rem;
+    resize: none;
+}

@@ -1,0 +1,132 @@
+.task-editor {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-editor > article {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    height: fit-content;
+    width: fit-content;
+
+    background-color: var(--color-dark);
+    padding: 0.5rem;
+
+    border-radius: 0.5rem;
+}
+
+.task-editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-editor-header-section {
+    display: flex;
+    gap: 5px;
+}
+
+.task-editor-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-editor-form > section {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.task-editor-form > section > fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    gap: 5px;
+}
+
+.task-editor-form > section > fieldset > section {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.task-editor-input {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.task-editor-input-active {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.task-editor-input > input, .task-editor-input > textarea {
+    background-color: var(--color-dark-grey);
+    color: var(--color-dark);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+
+#task-editor-id {
+    width: 7.5rem;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+
+    border: none;
+}
+
+#task-editor-name {
+    width: 15rem;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+#task-editor-date, #task-editor-status {
+    width: 6.5rem;
+}
+
+#task-editor-description {
+    width: 22.813rem;
+    height: 12.31rem;
+    resize: none;
+    padding: 0.2rem;
+
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.task-editor-time > input {
+    text-align: end;
+    width: 6.5rem;
+
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+
+.task-editor-input-active > input, .task-editor-input-active > textarea {
+    background-color: var(--color-grey-soft);
+    color: var(--color-dark);
+}
+
